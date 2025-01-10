@@ -337,3 +337,55 @@ thead>tr>th {
     font-size: 16px;
     font-weight: 500;
 }
+
+/* Styles for News Section */
+
+#news>h1 {
+    margin-bottom: 24px;
+}
+
+#news>p {
+    margin-bottom: 32px;
+}
+
+.news-titles .news-image {
+    height: 100%;
+}
+
+
+.news-image img {
+    width: 400px;
+    border-radius: 24px;
+}
+
+.news-titles {
+    justify-content: space-between;
+    padding: 52px 48px;
+    background-color: white;
+    border-radius: 24px;
+    column-gap: 70px;
+    align-items: flex-start;
+}
+
+.news-information h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.news-author {
+    margin-bottom: 12px;
+}
+
+.news-published-on span {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-published-on {
+    margin-bottom: 12px;
+}
+
+.news-titles p{
+    margin-bottom: 32px;
+}
