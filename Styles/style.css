@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Styles for Universal Items */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: fira sans;
+}
+
+/* Shared Style for All Elements */
+.primary-bg {
+    background-color: #C6E4D6;
+}
+
+.btn {
+    background-color: #006A50;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+.btn-secondary {
+    padding: 15px 25px;
+    background-color: white;
+    color: #006A50;
+    border-radius: 5px;
+    border: 1px solid #006A50;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color .6s, color .6s;
+}
+
+.btn-secondary:hover {
+    background-color: #006A50;
+    color: white;
+    
+}
+
+.btn:hover {
+    background-color: #044534;
+}
+
+.section-title {
+    font-size: 40px;
+}
+
+.card-title {
+    font-size: 20;
+}
+
+.paragraph-color {
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.flex {
+    display: flex;
+}
+
+.align {
+    align-items: center;
+}
+
+.justify {
+    justify-content: center;
+}
+
+.flex-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Styles for Body Parts */
+body {
+    padding: 0 160px;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+/* Styles for Section */
+section {
+    margin-bottom: 80px;
+}
+
+/* Styles for Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0px;
+    margin-bottom: 20px;
+}
+
+/* Styles for Hero Section */
+
+#hero {
+    border-radius: 24px;
+    padding: 60px;
+    column-gap: 50px;
+}
+
+#hero .hero-titles {
+    width: 60%;
+}
+
+#hero .hero-image {
+    width: 40%;
+}
+
+#hero .hero-titles h1{
+    font-size: 50px;
+    margin-bottom: 24px;
+}
+
+#hero .hero-titles h4 {
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+
+.hero-image img{
+    width: 100%;
+}
+
+
