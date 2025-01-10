@@ -2,7 +2,7 @@
 
 
 /* Styles for Universal Items */
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: fira sans;
@@ -44,7 +44,7 @@
 .btn-secondary:hover {
     background-color: #006A50;
     color: white;
-    
+
 }
 
 
@@ -59,8 +59,11 @@
     color: rgba(14, 14, 14, 0.8)
 }
 
-.pillar p, .vision p, #vision-future p {
-    color:rgba(14, 14, 14, 0.7);
+.pillar p,
+.vision p,
+#vision-future p,
+#news p {
+    color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
 }
 
@@ -101,7 +104,7 @@ header {
     justify-content: space-between;
     padding: 24px 160px;
     margin-bottom: 20px;
-    background-color: rgba(199, 199, 199, 0.15);  
+    background-color: rgba(216, 216, 216, 0.15);
 }
 
 
@@ -128,7 +131,7 @@ main {
     width: 40%;
 }
 
-#hero .hero-titles h1{
+#hero .hero-titles h1 {
     font-size: 50px;
     margin-bottom: 24px;
 }
@@ -139,7 +142,7 @@ main {
     margin-bottom: 16px;
 }
 
-.hero-image img{
+.hero-image img {
     width: 100%;
 }
 
@@ -160,9 +163,11 @@ main {
 #pillars .pillar-container .pillar img {
     margin-bottom: 24px;
 }
+
 #pillars .pillar-container .pillar h3 {
     margin-bottom: 12px;
 }
+
 #pillars h1 {
     margin-bottom: 32px;
 }
@@ -179,7 +184,7 @@ main {
 
 #vision-future .vision-container {
     column-gap: 24px;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-bottom: 32px;
 }
 
@@ -190,27 +195,33 @@ main {
 }
 
 .vision-container .vision-box-1 {
-    background-color:rgba(84, 144, 245, .2);
+    background-color: rgba(84, 144, 245, .2);
 }
+
 .vision-container .vision-box-2 {
     background-color: #C6E4D6;
 }
+
 .vision-container .vision-box-3 {
-    background-color:rgba(255, 194, 57, .2);
+    background-color: rgba(255, 194, 57, .2);
 }
 
 .vision img {
     margin-top: 24px;
 }
+
 .vision h3 {
     margin-top: 12px;
 }
+
 .vision p {
     margin-top: 24px;
 }
 
 /* Styles for Vision Card Buttons */
-.vision-box-1 button, .vision-box-2 button, .vision-box-3 button {
+.vision-box-1 button,
+.vision-box-2 button,
+.vision-box-3 button {
     padding: 10px 20px;
     border: none;
     color: white;
@@ -224,18 +235,23 @@ main {
 .vision-box-1 button {
     background-color: #5490F5;
 }
+
 .vision-box-1 button:hover {
     background-color: #3669c2;
 }
+
 .vision-box-2 button {
     background-color: #09A15C;
 }
+
 .vision-box-2 button:hover {
     background-color: #046e3e;
 }
+
 .vision-box-3 button {
     background-color: #FFC239;
 }
+
 .vision-box-3 button:hover {
     background-color: #e5ab25;
 }
@@ -263,15 +279,61 @@ main {
     color: rgba(14, 14, 14, 0.6);
 }
 
+/* Styles is for Opinion Importancy Section */
 
+#opinion-importancy h1 {
+    margin-bottom: 24px;
+}
 
+.queries {
+    padding: 32px;
+    background-color: white;
+    border-radius: 16px;
+}
 
+table {
+    border-collapse: collapse;
+    width: 100%;
 
+}
 
+thead>tr,
+tbody>tr>td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+}
 
+td>select {
+    padding: 12px 16px;
+    border: 1px solid #0E0E0E;
+    border-radius: 4px;
+}
 
+td>select>option {
+    background-color: #C6E4D6;
+    padding: 12px 16px;
+    background-color: white;
+}
 
+tr>.quires-title-left {
+    text-align: left;
+}
 
+tr>.quires-title-right {
+    text-align: center;
+}
 
+thead>tr>th {
+    padding: 24px;
+    font-size: 20px;
+    font-weight: bold;
+}
 
+.select-field {
+    text-align: center;
+}
 
+.question {
+    font-size: 16px;
+    font-weight: 500;
+}
