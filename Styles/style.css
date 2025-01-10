@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     font-family: fira sans;
+    /* border: 1px solid black; */
 }
 
 /* Shared Style for All Elements */
@@ -25,6 +26,10 @@
     transition: background-color .4s;
 }
 
+.btn:hover {
+    background-color: #044534;
+}
+
 .btn-secondary {
     padding: 15px 25px;
     background-color: white;
@@ -42,20 +47,21 @@
     
 }
 
-.btn:hover {
-    background-color: #044534;
-}
+
 
 .section-title {
     font-size: 40px;
+    color: rgba(14, 14, 14, 1);
 }
 
 .card-title {
     font-size: 20;
+    color: rgba(14, 14, 14, 0.8)
 }
 
-.paragraph-color {
-    color: rgba(14, 14, 14, 0.7);
+.pillar p, .vision p, #vision-future p {
+    color:rgba(14, 14, 14, 0.7);
+    font-size: 16px;
 }
 
 .flex {
@@ -79,8 +85,7 @@
 
 /* Styles for Body Parts */
 body {
-    padding: 0 160px;
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(237, 237, 237, 0.749);
 }
 
 /* Styles for Section */
@@ -94,8 +99,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 0px;
+    padding: 24px 160px;
     margin-bottom: 20px;
+    background-color: rgba(199, 199, 199, 0.15);  
+}
+
+
+
+/* styles for main */
+
+main {
+    padding: 0 160px;
 }
 
 /* Styles for Hero Section */
@@ -128,5 +142,136 @@ header {
 .hero-image img{
     width: 100%;
 }
+
+/* Style of Pillars Section */
+#pillars .pillar-container .pillar {
+    width: 302px;
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+#pillars .pillar-container {
+    column-gap: 24px;
+    justify-content: space-around;
+}
+
+#pillars .pillar-container .pillar img {
+    margin-bottom: 24px;
+}
+#pillars .pillar-container .pillar h3 {
+    margin-bottom: 12px;
+}
+#pillars h1 {
+    margin-bottom: 32px;
+}
+
+/* Styles for Vision Section */
+
+#vision-future h1 {
+    margin-bottom: 24px;
+}
+
+#vision-future p {
+    margin-bottom: 32px;
+}
+
+#vision-future .vision-container {
+    column-gap: 24px;
+    justify-content:space-between;
+    margin-bottom: 32px;
+}
+
+#vision-future .vision-container .vision {
+    padding: 32px;
+    border-radius: 16px;
+    width: 400px;
+}
+
+.vision-container .vision-box-1 {
+    background-color:rgba(84, 144, 245, .2);
+}
+.vision-container .vision-box-2 {
+    background-color: #C6E4D6;
+}
+.vision-container .vision-box-3 {
+    background-color:rgba(255, 194, 57, .2);
+}
+
+.vision img {
+    margin-top: 24px;
+}
+.vision h3 {
+    margin-top: 12px;
+}
+.vision p {
+    margin-top: 24px;
+}
+
+/* Styles for Vision Card Buttons */
+.vision-box-1 button, .vision-box-2 button, .vision-box-3 button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+.vision-box-1 button {
+    background-color: #5490F5;
+}
+.vision-box-1 button:hover {
+    background-color: #3669c2;
+}
+.vision-box-2 button {
+    background-color: #09A15C;
+}
+.vision-box-2 button:hover {
+    background-color: #046e3e;
+}
+.vision-box-3 button {
+    background-color: #FFC239;
+}
+.vision-box-3 button:hover {
+    background-color: #e5ab25;
+}
+
+/* Styles for Vision Section Quote */
+
+.quote {
+    padding: 48px 24px;
+    background-color: white;
+    border-radius: 16px;
+    background-image: url("../assets/quote-bg.png");
+    background-position: 2% 5%;
+    background-repeat: no-repeat;
+}
+
+.quote p {
+    margin-bottom: 12px;
+}
+
+.quote h3 {
+    margin-bottom: 5px;
+}
+
+.quote .designation {
+    color: rgba(14, 14, 14, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
