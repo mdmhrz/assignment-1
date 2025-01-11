@@ -62,7 +62,7 @@
 .pillar p,
 .vision p,
 #vision-future p,
-#news p, #donate> .donate-head-titles>p {
+#news p, #donate> .donate-head-titles>p, .general-p {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
 }
