@@ -62,7 +62,7 @@
 .pillar p,
 .vision p,
 #vision-future p,
-#news p {
+#news p, #donate> .donate-head-titles>p {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
 }
@@ -388,4 +388,75 @@ thead>tr>th {
 
 .news-titles p{
     margin-bottom: 32px;
+}
+
+/* Styles for Donate Section */
+
+.donate-head-titles {
+    text-align: center;
+    padding: 0 90px;
+}
+
+.donate-head-titles h1{
+    margin-bottom: 24px;
+}
+
+.donate-head-titles p {
+    margin-bottom: 32px;
+}
+
+.amount-container {
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    column-gap: 24px;
+    margin-bottom: 32px;
+}
+.amount-input form {
+    text-align: center;
+}
+
+.amount-input form input[type="text"] {
+    width: 90%;
+    margin-bottom: 32px;
+    padding: 20px 30px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+}
+
+.amount-input form input[type="text"]::placeholder {
+    text-align: center;
+    font-size: 20px;
+}
+
+.amount-input form[type="submit"] {
+    text-align: center;
+}
+
+.taka h1{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px;
+}
+
+.taka {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+.taka:hover {
+    background-color: #C6E4D6;
+}
+
+.two-hundred-taka {
+    background-color: #C6E4D6;
+}
+
+.donate-button {
+    text-align: center;
 }
