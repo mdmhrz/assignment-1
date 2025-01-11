@@ -168,6 +168,7 @@ main {
 
 #pillars .pillar-container .pillar img {
     margin-bottom: 24px;
+    width: 64px;
 }
 
 #pillars .pillar-container .pillar h3 {
@@ -216,6 +217,7 @@ main {
 
 .vision img {
     margin-bottom: 24px;
+    width: 64px;
 }
 
 .vision h3 {
