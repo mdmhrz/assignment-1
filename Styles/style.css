@@ -15,7 +15,7 @@
 }
 
 .btn {
-    background-color: #006A50;
+    background-color: #098b6a;
     padding: 10px 20px;
     border: none;
     color: white;
@@ -23,11 +23,13 @@
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
-    transition: background-color .4s;
+    transition: background-color .4s, box-shadow .4s;
 }
 
 .btn:hover {
-    background-color: #044534;
+    background-color: #026b4f;
+    box-shadow: 5px 5px 7px rgba(99, 98, 98, 0.336);
+
 }
 
 .btn-secondary {
@@ -47,7 +49,7 @@
 
 }
 
-.vision-container .vision, .pillar-container .pillar, #opinion-importancy .queries, article, .news-titles {
+#opinion-importancy .queries, article, .news-titles {
     box-shadow: 3px 4px 5px rgba(99, 98, 98, 0.15);
 }
 
@@ -159,6 +161,11 @@ main {
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     height: 260px;
+    box-shadow: 3px 4px 5px rgba(99, 98, 98, 0.15);
+    transition: box-shadow .4s;
+}
+#pillars .pillar-container .pillar:hover {
+    box-shadow: 5px 6px 7px rgba(99, 98, 98, 0.22);
 }
 
 #pillars .pillar-container {
@@ -201,6 +208,11 @@ main {
     border-radius: 16px;
     width: 370px;
     height: 325px;
+    transition: box-shadow .4s;
+    box-shadow: 3px 3px 5px rgba(99, 98, 98, 0.2);
+}
+#vision-future .vision-container .vision:hover {
+    box-shadow: 5px 5px 7px rgba(99, 98, 98, 0.336);
 }
 
 .vision-container .vision-box-1 {
@@ -245,26 +257,32 @@ main {
 
 .vision-box-1 button {
     background-color: #5490F5;
+    transition: background-color .4s, box-shadow .4s;
 }
 
 .vision-box-1 button:hover {
     background-color: #3669c2;
+    box-shadow: 5px 5px 7px rgba(99, 98, 98, 0.336);
 }
 
 .vision-box-2 button {
     background-color: #09A15C;
+    transition: background-color .4s, box-shadow .4s;
 }
 
 .vision-box-2 button:hover {
     background-color: #046e3e;
+    box-shadow: 5px 5px 7px rgba(99, 98, 98, 0.336);
 }
 
 .vision-box-3 button {
     background-color: #FFC239;
+    transition: background-color .4s, box-shadow .4s;
 }
 
 .vision-box-3 button:hover {
     background-color: #e5ab25;
+    box-shadow: 5px 5px 7px rgba(99, 98, 98, 0.336);
 }
 
 /* Styles for Vision Section Quote */
