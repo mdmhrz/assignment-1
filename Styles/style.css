@@ -62,7 +62,9 @@
 .pillar p,
 .vision p,
 #vision-future p,
-#news p, #donate> .donate-head-titles>p, .general-p {
+#news p,
+#donate>.donate-head-titles>p,
+.general-p {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
 }
@@ -382,11 +384,12 @@ thead>tr>th {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
+
 .news-published-on {
     margin-bottom: 12px;
 }
 
-.news-titles p{
+.news-titles p {
     margin-bottom: 32px;
 }
 
@@ -397,7 +400,7 @@ thead>tr>th {
     padding: 0 90px;
 }
 
-.donate-head-titles h1{
+.donate-head-titles h1 {
     margin-bottom: 24px;
 }
 
@@ -412,6 +415,7 @@ thead>tr>th {
     column-gap: 24px;
     margin-bottom: 32px;
 }
+
 .amount-input form {
     text-align: center;
 }
@@ -435,7 +439,7 @@ thead>tr>th {
     text-align: center;
 }
 
-.taka h1{
+.taka h1 {
     font-size: 28px;
     font-weight: 700;
     text-align: center;
@@ -459,4 +463,50 @@ thead>tr>th {
 
 .donate-button {
     text-align: center;
+}
+
+/* Styles for Newsletter Section */
+
+#newsletter {
+    text-align: center;
+}
+
+.news-letter-container h1 {
+    margin-bottom: 16px;
+}
+
+.news-letter-container .general-p {
+    margin-bottom: 24px;
+}
+
+.newsletter-button-area {
+    margin-bottom: 25px;
+}
+
+.newsletter-button-area form input {
+    padding: 11px 20px;
+    border-radius: 8px 0 0 8px;
+    margin-right: -5px;
+    border: none;
+    width: 400px;
+    outline: none;
+    font-size: 18px;
+
+
+}
+
+.subscribe {
+    background-color: #006A50;
+    padding: 10px 20px;
+    border: 1px solid #006A50;
+    color: white;
+    font-size: 18px;
+    border-radius: 0 8px 8px 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+.subscribe:hover {
+    background-color: #044534;
 }
