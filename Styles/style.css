@@ -94,9 +94,8 @@
 
 
 /* Styles for Body Parts */
-body {
-    background-color: rgba(237, 237, 237, 0.35);
-}
+
+
 
 /* Styles for Section */
 section {
@@ -109,9 +108,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 160px;
-    margin-bottom: 20px;
-    background-color: rgba(216, 216, 216, 0.15);
+    padding: 24px 160px 60px 160px;
+    background-color: rgba(237, 237, 237, 0.35);
 }
 
 
@@ -119,7 +117,9 @@ header {
 /* styles for main */
 
 main {
-    padding: 0 160px;
+    padding: 0px 160px 50px 160px;
+    background-color: rgba(237, 237, 237, 0.35);
+
 }
 
 /* Styles for Hero Section */
@@ -570,6 +570,10 @@ thead>tr>th {
 .promise-title {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
+}
+
+#padding-king {
+    padding: 0 150px;
 }
 
 /* These Styles for Footer */
