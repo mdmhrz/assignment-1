@@ -422,7 +422,6 @@ thead>tr>th {
 }
 
 .amount-container {
-    justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
     column-gap: 24px;
