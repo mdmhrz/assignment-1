@@ -474,20 +474,21 @@ thead>tr>th {
     font-size: 28px;
     font-weight: 700;
     text-align: center;
-    padding: 40px;
+    padding: 30px 30px;
 }
 
 .taka {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     cursor: pointer;
-    transition: background-color .5s, box-shadow .5s;
+    transition: background-color .5s, box-shadow .5s, color .5s;
     
 }
 
 .taka:hover {
-    background-color: #C6E4D6;
-    box-shadow: 5px 5px 5px rgba(99, 98, 98, 0.15);
+    background-color: #098b6a;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(99, 98, 98, 0.25);
 }
 
 .two-hundred-taka {
@@ -506,7 +507,7 @@ thead>tr>th {
 }
 
 .news-letter-container {
-    padding: 80px 22px;
+    padding: 80px 100px;
     border-radius: 24px;
 }
 
@@ -516,6 +517,7 @@ thead>tr>th {
 
 .news-letter-container .general-p {
     margin-bottom: 24px;
+    padding: 0 50px;
 }
 
 .newsletter-button-area {
@@ -541,9 +543,9 @@ thead>tr>th {
 }
 
 .subscribe {
-    background-color: #006A50;
+    background-color: #098b6a;
     padding: 10px 20px;
-    border: 1px solid #006A50;
+    border: 1px solid #098b6a;
     color: white;
     font-size: 18px;
     border-radius: 0 8px 8px 0;
@@ -553,7 +555,7 @@ thead>tr>th {
 }
 
 .subscribe:hover {
-    background-color: #044534;
+    background-color: #06654c;
 }
 
 .promise-title {
