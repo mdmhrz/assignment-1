@@ -100,7 +100,7 @@ article,
 
 /* Styles for Section */
 section {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 /* Styles for Header */
@@ -193,7 +193,7 @@ main {
 }
 
 #pillars h1 {
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 
 /* Styles for Vision Section */
@@ -779,4 +779,17 @@ footer hr {
     tbody>tr>td {
         padding: 12px;
     }
+
+    #pillars .pillar-container .pillar {
+        width: 90%;
+    }
+
+    #pillars h1 {
+        margin-bottom: 16px;
+    }
+
+    section {
+        margin-bottom: 60px;
+    }
+
 }
